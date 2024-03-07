@@ -76,9 +76,9 @@ video {
   border-radius: var(--borderRadius);
   padding: 0.8rem 1rem;
   color: white;
-  background: var(--primaryColor) .btn;
+  background: var(--primaryColor);
 }
-.btn hover {
+.btn:hover {
   transition: 0.3s ease;
 }
 

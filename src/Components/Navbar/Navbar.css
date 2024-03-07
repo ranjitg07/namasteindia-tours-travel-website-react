@@ -1,1 +1,88 @@
-/*# sourceMappingURL=Navbar.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Honk&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&family=Russo+One&family=Sora:wght@100..800&display=swap");
+:root {
+  --primaryColor: hsl(14, 90%, 53%);
+  --primaryColorLight: hsl(14, 96%, 91%);
+  --bgColor: hsl(0, 0%, 100%);
+  --formColor: hsl(20, 42%, 87%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --greyText: hsl(0, 0%, 51%);
+  --inputColor: hsl(330, 12%, 97%);
+  --cardColor: hsl(300, 3%, 94%);
+  /* Font and Typography */
+  --biggestFontSize: 2.5rem;
+  --h1FontSize: 2rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: 0.938rem;
+  --smallFontSize: 0.813rem;
+  --smallestFontSize: 0.75rem;
+  --borderRadius: 3rem;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1.5rem 2rem;
+  position: fixed;
+  border-bottom: 1.5px solid var(--primaryColor);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.navBar .logoDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .navBar .logoDiv {
+    width: 130px;
+  }
+  .navBar .menu {
+    position: absolute;
+    width: 70%;
+    top: -100rem;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    background: rgba(255, 255, 255, 0.94);
+    padding: 2rem;
+    border-radius: 10px;
+    transition: 0.8s ease-in-out;
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+    box-shadow: 0 2px 3px 4px rgba(236, 213, 213, 0.516);
+  }
+  .navBar .menu li {
+    font-size: var(--h3FontSize);
+    font-weight: 500;
+    padding: 1rem 0;
+    text-align: center;
+    cursor: pointer;
+  }
+  .navBar .menu li:hover {
+    color: var(--primaryColor);
+    border-bottom: 1.5px solid var(--primaryColor);
+  }
+}
+.navBar .menuIcon,
+.navBar .closeIcon {
+  font-size: var(--h1FontSize);
+}
+.navBar .menuIcon:hover,
+.navBar .closeIcon:hover {
+  color: var(--primaryColor);
+}
+.navBar .closeIcon {
+  position: absolute;
+  bottom: -15px;
+  right: 50%;
+  left: 50%;
+  color: var(--blackColor);
+  transform: translate(-50%);
+}
+.navBar .showNavbar {
+  top: 8rem;
+}/*# sourceMappingURL=Navbar.css.map */
