@@ -1,1 +1,125 @@
-/*# sourceMappingURL=Destinations.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Honk&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&family=Russo+One&family=Sora:wght@100..800&display=swap");
+:root {
+  --primaryColor: hsl(14, 90%, 53%);
+  --primaryColorLight: hsl(14, 96%, 91%);
+  --bgColor: hsl(0, 0%, 100%);
+  --formColor: hsl(20, 42%, 87%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --greyText: hsl(0, 0%, 51%);
+  --inputColor: hsl(330, 12%, 97%);
+  --cardColor: hsl(300, 3%, 94%);
+  /* Font and Typography */
+  --biggestFontSize: 2.5rem;
+  --h1FontSize: 1.6rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: 0.938rem;
+  --smallFontSize: 0.813rem;
+  --smallestFontSize: 0.75rem;
+  --borderRadius: 3rem;
+}
+
+.destination .secContainer .redText {
+  font-size: var(--smallFontSize);
+  font-weight: 500;
+  color: var(--primaryColor);
+}
+.destination .secContainer h3 {
+  font-size: var(--h1FontSize);
+}
+.destination .secContainer .searchField {
+  margin-top: 2rem;
+  gap: 1rem;
+}
+.destination .secContainer .searchField .inputField {
+  background: var(--primaryColorLight);
+  padding: 1rem;
+  border-radius: var(--borderRadius);
+  gap: 0.5rem;
+}
+.destination .secContainer .searchField input {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.destination .secContainer .searchField .icon {
+  color: var(--blackColor);
+}
+.destination .secContainer .btn {
+  gap: 0.5rem;
+  margin: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.destination .secContainer .search-icon {
+  color: white !important;
+}
+.destination .secMenu {
+  display: none;
+}
+.destination .destContainer {
+  margin-top: 2rem;
+}
+.destination .destContainer .singleDestination {
+  position: relative;
+  overflow: hidden;
+  border-radius: 2rem;
+  height: 260px;
+}
+.destination .destContainer .singleDestination .imgDiv {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.destination .destContainer .singleDestination .imgDiv img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+.destination .destContainer .singleDestination:hover .imgDiv img {
+  scale: 1.1;
+}
+.destination .destContainer .singleDestination .descInfo {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem 2rem 1rem;
+  justify-content: space-between;
+}
+.destination .destContainer .singleDestination .descInfo::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0px;
+  right: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.76));
+  z-index: -1;
+}
+.destination .destContainer .singleDestination .descInfo .text {
+  gap: 0.5rem;
+  color: var(--whiteColor);
+}
+.destination .destContainer .singleDestination .descInfo .name {
+  display: block;
+  font-weight: 600;
+  padding-bottom: 0.3rem;
+}
+.destination .destContainer .singleDestination .descInfo .flex, .destination .destContainer .singleDestination .descInfo .icon {
+  font-size: var(--normalFontSize);
+}
+.destination .destContainer .singleDestination .rating {
+  padding: 8px 1rem;
+  border-radius: var(--borderRadius);
+  background: rgba(245, 245, 245, 0.37);
+  border: 1.5px solid rgba(255, 255, 255, 0.241);
+  font-size: var(--h3FontSize);
+  font-weight: 600;
+  color: var(--whiteColor);
+}/*# sourceMappingURL=Destinations.css.map */
