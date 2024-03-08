@@ -1,1 +1,64 @@
-/*# sourceMappingURL=Reviews.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Honk&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&family=Russo+One&family=Sora:wght@100..800&display=swap");
+:root {
+  --primaryColor: hsl(14, 90%, 53%);
+  --primaryColorLight: hsl(14, 96%, 91%);
+  --bgColor: hsl(0, 0%, 100%);
+  --formColor: hsl(20, 42%, 87%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --greyText: hsl(0, 0%, 51%);
+  --inputColor: hsl(330, 12%, 97%);
+  --cardColor: hsl(300, 3%, 94%);
+  /* Font and Typography */
+  --biggestFontSize: 2.5rem;
+  --h1FontSize: 1.6rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: 0.938rem;
+  --smallFontSize: 0.813rem;
+  --smallestFontSize: 0.75rem;
+  --borderRadius: 3rem;
+}
+
+.review .secContainer .textDiv .redText {
+  font-size: var(--smallFontSize);
+  display: block;
+  color: var(--primaryColor);
+  font-weight: 700;
+}
+.review .secContainer .textDiv h3 {
+  font-size: var(--h2FontSize);
+  color: var(--blackColor);
+  padding: 1rem 0;
+}
+.review .secContainer .textDiv p {
+  color: var(--blackColor);
+}
+.review .secContainer .textDiv .stars {
+  gap: 0.4rem;
+  padding: 1rem 0;
+}
+.review .secContainer .textDiv .stars .icon {
+  color: var(--primaryColor);
+  font-size: var(--h3FontSize);
+}
+.review .secContainer .textDiv .clientsImg {
+  gap: 1rem;
+}
+.review .secContainer .textDiv .clientsImg img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 0 0 2px 2px rgb(251, 212, 194);
+}
+.review .secContainer .imgDiv {
+  height: 250px;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+}/*# sourceMappingURL=Reviews.css.map */
