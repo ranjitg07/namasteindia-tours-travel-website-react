@@ -1,1 +1,39 @@
-/*# sourceMappingURL=Portfolio.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Honk&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&family=Russo+One&family=Sora:wght@100..800&display=swap");
+:root {
+  --primaryColor: hsl(14, 90%, 53%);
+  --primaryColorLight: hsl(14, 96%, 91%);
+  --bgColor: hsl(0, 0%, 100%);
+  --formColor: hsl(20, 42%, 87%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --greyText: hsl(0, 0%, 51%);
+  --inputColor: hsl(330, 12%, 97%);
+  --cardColor: hsl(300, 3%, 94%);
+  /* Font and Typography */
+  --biggestFontSize: 2.5rem;
+  --h1FontSize: 1.6rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: 0.938rem;
+  --smallFontSize: 0.813rem;
+  --smallestFontSize: 0.75rem;
+  --borderRadius: 3rem;
+}
+
+.portfolio .secContainer {
+  gap: 2rem;
+}
+.portfolio .secContainer .leftContent .grid .singlePortfolio {
+  gap: 1rem;
+  align-items: flex-start;
+}
+.portfolio .secContainer .leftContent .grid .iconDiv img {
+  height: 50px;
+  width: 50px;
+}
+.portfolio .secContainer .leftContent .grid .info h4 {
+  padding-bottom: 0.5rem;
+}
+.portfolio .secContainer .leftContent .grid .info p {
+  font-size: 0.8rem;
+}/*# sourceMappingURL=Portfolio.css.map */
