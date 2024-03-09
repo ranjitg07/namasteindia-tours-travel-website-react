@@ -58,8 +58,14 @@
   border-radius: 10px 10px 0 0;
 }
 
-.questions .secHeading h3, .questions .secHeading h4 {
-  padding-bottom: 1rem;
+.questions .secHeading .flex {
+  justify-content: space-between;
+}
+.questions .secHeading img {
+  width: 20px;
+}
+.questions .secHeading h4 {
+  padding-top: 1rem;
 }
 .questions .secHeading p {
   font-size: var(--smallFontSize);

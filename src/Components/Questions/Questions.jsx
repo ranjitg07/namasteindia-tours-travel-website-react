@@ -1,13 +1,17 @@
 import React, { useState } from "react";
 import "./Questions.css";
 import Accordion from "./Accordion";
+import questionLogo from '../../assets/question.svg' 
 
 const Questions = () => {
   const [active, setActive] = useState("How do I choose the right travel destination for me?");
   return (
     <div className="questions section container">
       <div className="secHeading grid">
-        <h3>Frequently Asked Questions</h3>
+        <div className="flex">
+          <h3>Frequently Asked Questions</h3>
+          <img src={questionLogo} alt="Hii" className="icon"/>
+        </div>
       </div>
       <div className="secContainer grid">
         {/* we will import a component file from a diff file */}
