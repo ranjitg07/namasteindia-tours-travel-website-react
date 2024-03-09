@@ -91,9 +91,59 @@
     transform: translate(-50%);
   }
 
-  .showNavbar{
+  .showNavbar {
     top: 8rem;
   }
 }
 
+// Media Queries
+@media screen and (min-width: 768px) {
+  .navBar {
+    height: 90px;
+    .logoDiv {
+      width: 180px;
+    }
 
+    .closeIcon,
+    .menuIcon {
+      display: none;
+    }
+
+    .menu {
+      ul {
+        display: flex;
+        gap: 1rem;
+
+        li {
+          font-size: var(--h3FontSize);
+          font-weight: 500;
+          padding: 1rem 0;
+          text-align: center;
+          cursor: pointer;
+
+          &:hover {
+            color: var(--primaryColor);
+            border-bottom: 1.5px solid var(--primaryColor);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .navBar {
+    padding: 2rem 6rem;
+    .menu {
+      ul {
+        gap: 4rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .navBar{
+    padding: 2rem 14rem;
+  }
+}

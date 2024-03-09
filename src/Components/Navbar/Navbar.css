@@ -87,4 +87,45 @@
 }
 .navBar .showNavbar {
   top: 8rem;
+}
+
+@media screen and (min-width: 768px) {
+  .navBar {
+    height: 90px;
+  }
+  .navBar .logoDiv {
+    width: 180px;
+  }
+  .navBar .closeIcon,
+  .navBar .menuIcon {
+    display: none;
+  }
+  .navBar .menu ul {
+    display: flex;
+    gap: 1rem;
+  }
+  .navBar .menu ul li {
+    font-size: var(--h3FontSize);
+    font-weight: 500;
+    padding: 1rem 0;
+    text-align: center;
+    cursor: pointer;
+  }
+  .navBar .menu ul li:hover {
+    color: var(--primaryColor);
+    border-bottom: 1.5px solid var(--primaryColor);
+  }
+}
+@media screen and (min-width: 1240px) {
+  .navBar {
+    padding: 2rem 6rem;
+  }
+  .navBar .menu ul {
+    gap: 4rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .navBar {
+    padding: 2rem 14rem;
+  }
 }/*# sourceMappingURL=Navbar.css.map */
