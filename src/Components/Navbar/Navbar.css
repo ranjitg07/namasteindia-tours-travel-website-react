@@ -27,6 +27,7 @@
   width: 100%;
   padding: 1.5rem 2rem;
   position: fixed;
+  background: rgba(255, 255, 255, 0.737);
   border-bottom: 1.5px solid rgb(211, 211, 211);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);

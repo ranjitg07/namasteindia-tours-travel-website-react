@@ -1,1 +1,79 @@
-/*# sourceMappingURL=Footer.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Honk&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&family=Russo+One&family=Sora:wght@100..800&display=swap");
+:root {
+  --primaryColor: hsl(14, 90%, 53%);
+  --primaryColorLight: hsl(14, 96%, 91%);
+  --bgColor: hsl(0, 0%, 100%);
+  --formColor: hsl(20, 42%, 87%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --greyText: hsl(0, 0%, 51%);
+  --inputColor: hsl(330, 12%, 97%);
+  --cardColor: hsl(300, 3%, 94%);
+  /* Font and Typography */
+  --biggestFontSize: 2.5rem;
+  --h1FontSize: 1.6rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: 0.938rem;
+  --smallFontSize: 0.813rem;
+  --smallestFontSize: 0.75rem;
+  --borderRadius: 3rem;
+}
+
+.footer {
+  background: var(--primaryColorLight);
+  padding: 2rem 0;
+}
+.footer .secContainer {
+  gap: 1.5rem;
+  text-align: center;
+  align-items: flex-start;
+}
+.footer .secContainer .logoDiv .footerLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--blackColor);
+  font-weight: 500;
+  cursor: pointer;
+  padding-bottom: 0.5rem;
+}
+.footer .secContainer .logoDiv .footerLogo img {
+  width: 130px;
+}
+.footer .secContainer .socials {
+  gap: 0.5rem;
+  margin: auto;
+  justify-content: center;
+}
+.footer .secContainer .socials .icon {
+  font-size: 30px;
+  background: var(--primaryColor);
+  border-radius: 50%;
+  padding: 7px;
+  color: var(--whiteColor);
+}
+.footer .secContainer .socials .icon:hover {
+  background: var(--primaryColorLight);
+  color: var(--blackColor);
+}
+.footer .secContainer .footerLinks {
+  display: grid;
+  row-gap: 0.2rem;
+}
+.footer .secContainer .footerLinks .linkTitle {
+  padding-bottom: 0.5rem;
+  color: var(--blackColor);
+  font-weight: 700;
+}
+.footer .secContainer .footerLinks li:hover {
+  transform: translate(10px);
+}
+.footer .secContainer .footerLinks li:hover a {
+  color: var(--primaryColor);
+}
+.footer .secContainer .footerLinks a, .footer .secContainer .footerLinks .phone, .footer .secContainer .footerLinks .email {
+  color: var(--blackColor);
+  font-size: 13px;
+  font-weight: 500;
+}/*# sourceMappingURL=Footer.css.map */
