@@ -83,7 +83,7 @@ video {
 }
 
 .secTitle {
-  display: none;
+  display: grid;
   text-align: center;
   padding: 1rem 0;
   font-size: 25px;
@@ -139,4 +139,14 @@ video {
   width: 10px;
   background: var(--primaryColor);
   border-radius: var(--borderRadius);
+}
+
+@media screen and (min-width: 840px) {
+  .section {
+    padding: 4rem 0 3rem;
+  }
+  .container {
+    width: 75%;
+    margin: auto;
+  }
 }/*# sourceMappingURL=App.css.map */
