@@ -39,6 +39,9 @@
 }
 
 @media screen and (min-width: 480px) {
+  .portfolio .secContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
   .portfolio .secContainer .leftContent .secHeading h3 {
     font-size: var(--h2FontSize);
   }

@@ -12,11 +12,11 @@ const Footer = () => {
           <div className="footerLogo">
             <img src={footerLogo} alt="logo" className="" />
           </div>
-        </div>
           <div className="socials flex">
             <FaLinkedinIn className="icon" />
             <FaTwitter className="icon" />
           </div>
+        </div>
 
           <div className="footerLinks">
             <span className="linkTitle">Information</span>
