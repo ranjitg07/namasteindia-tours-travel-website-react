@@ -29,4 +29,50 @@
 }
 .subscribe .secContainer .textDiv .btn {
   padding: 0.8rem 2rem;
+}
+
+@media screen and (min-width: 480px) {
+  .subscribe .secContainer img {
+    max-width: 75%;
+    margin: auto;
+  }
+  .subscribe .secContainer .textDiv h4 {
+    font-size: 1.5rem;
+  }
+  .subscribe .secContainer .textDiv p {
+    padding: 1rem 0;
+    font-size: var(--h3FontSize);
+  }
+  .subscribe .secContainer .textDiv .btn {
+    padding: 0.5rem 2rem;
+    font-size: var(--h2FontSize);
+  }
+}
+@media screen and (min-width: 640px) {
+  .subscribe .secContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .subscribe .secContainer img {
+    width: 100%;
+    margin: auto;
+  }
+  .subscribe .secContainer .textDiv h4 {
+    font-size: 2rem;
+  }
+  .subscribe .secContainer .textDiv p {
+    padding: 1rem 0;
+    font-size: var(--h3FontSize);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .subscribe .secContainer .textDiv h4 {
+    font-size: var(--biggestFontSize);
+  }
+  .subscribe .secContainer .textDiv p {
+    padding: 2rem 0;
+    font-size: var(--h2FontSize);
+  }
+  .subscribe .secContainer .textDiv .btn {
+    padding: 0.8rem 2rem;
+  }
 }/*# sourceMappingURL=Subscribe.css.map */
