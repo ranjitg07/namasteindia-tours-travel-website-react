@@ -1,19 +1,27 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './Subscribe.css'
 import image from '../../assets/callUser1.png'
 
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 const Subscribe = () => {
+
+  useEffect(() => {
+    Aos.init({duration: 1000})
+  },[])
+
   return (
     <div className='subscribe section container'>
       <div className="secContainer grid">
-        <img src={image} alt="Div Image" />
+        <img src={image} alt="Div Image"  data-aos="zoom-in-right"/>
 
         <div className="textDiv">
-          <h4>Best Way To Start Your Journey!</h4>
-          <p>
+          <h4 data-aos='fade-up'>Best Way To Start Your Journey!</h4>
+          <p data-aos='fade-up'>
             We offer personalised itineraries tailored to individual preferences and interests. 
           </p>
-          <button className="btn">Start Here</button>
+          <button className="btn" data-aos='fade-up'>Start Here</button>
         </div>
       </div>
       

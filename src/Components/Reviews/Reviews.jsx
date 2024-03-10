@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./Reviews.css";
 
 //imported icons
@@ -11,20 +11,28 @@ import client3 from "../../assets/client3.jpg";
 import client4 from "../../assets/client4.jpg";
 import client5 from "../../assets/client5.jpg";
 
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 const Reviews = () => {
+
+  useEffect(() => {
+    Aos.init({duration: 1000})
+  },[])
+  
   return (
     <div className="review section container">
       <div className="secContainer grid">
         <div className="textDiv">
-          <span className="redText">FROM OUR CLIENTS</span>
-          <h3>Real Travel History From Our Beloved Clients</h3>
-          <p>
+          <span className="redText" data-aos='fade-up'>FROM OUR CLIENTS</span>
+          <h3 data-aos='fade-up'>Real Travel History From Our Beloved Clients</h3>
+          <p data-aos='fade-up'>
             By choosing us as their tour agency, customers can expect an
             enriching and enjoyable travel experience, filled with unforgettable
             memories that will last a lifetime.
           </p>
 
-          <span className="stars flex">
+          <span className="stars flex" data-aos='fade-up'>
             <AiFillStar className="icon" />
             <AiFillStar className="icon" />
             <AiFillStar className="icon" />
@@ -32,7 +40,7 @@ const Reviews = () => {
             <AiFillStar className="icon" />
           </span>
 
-          <div className="clientsImg flex">
+          <div className="clientsImg flex" data-aos='fade-up'>
             <img src={client1} alt="Client Image" />
             <img src={client2} alt="Client Image" />
             <img src={client3} alt="Client Image" />
@@ -41,7 +49,7 @@ const Reviews = () => {
         </div>
 
         <div className="imgDiv">
-          <img src={client5} alt="" />
+          <img src={client5} alt="Image" data-aos='zoom-in'/>
         </div>
       </div>
     </div>
