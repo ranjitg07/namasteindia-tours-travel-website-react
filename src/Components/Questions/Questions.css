@@ -40,7 +40,7 @@
   display: flex;
   align-items: center;
   line-height: 20px;
-  white-space: pre-line;
+  text-align: justify;
   height: 0;
   transition: all 0.3s ease-in-out;
   opacity: 0;
@@ -59,13 +59,11 @@
 }
 
 .questions .secHeading .flex {
-  justify-content: space-between;
+  padding-top: 1rem;
+  gap: 0.7rem;
 }
 .questions .secHeading img {
   width: 20px;
-}
-.questions .secHeading h4 {
-  padding-top: 1rem;
 }
 .questions .secHeading p {
   font-size: var(--smallFontSize);
@@ -75,22 +73,98 @@
 .questions .form .formContent {
   gap: 1rem;
 }
-.questions .form .formContent input, .questions .form .formContent textarea {
+.questions .form .formContent input,
+.questions .form .formContent textarea {
   background: var(--cardColor);
   width: 100%;
   padding: 1rem;
   border: none;
   outline: none;
   border-radius: 10px;
+  border: 1px solid var(--blackColor);
 }
 .questions .form .formContent input::-moz-placeholder, .questions .form .formContent textarea::-moz-placeholder {
   font-size: var(--smallFontSize);
   color: var(--blackColor);
 }
-.questions .form .formContent input::placeholder, .questions .form .formContent textarea::placeholder {
+.questions .form .formContent input::placeholder,
+.questions .form .formContent textarea::placeholder {
   font-size: var(--smallFontSize);
   color: var(--blackColor);
 }
 .questions .form .formContent textarea {
   height: 100px;
+}
+
+@media screen and (min-width: 640px) {
+  .accordianContainer .title {
+    font-size: var(--h3FontSize);
+  }
+  .accordianContainer .title span .icon {
+    font-size: 1.5rem;
+  }
+  .accordianContainer .description {
+    font-size: var(--normalFontSize);
+  }
+  .accordianContainer .show {
+    height: 150px;
+  }
+  .questions .secHeading h3,
+  .questions .secHeading h4 {
+    font-size: var(--h2FontSize);
+  }
+  .questions .secHeading p {
+    font-size: var(--normalFontSize);
+  }
+  .questions .secContainer {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  .questions .secContainer .form .formContent input,
+  .questions .secContainer .form .formContent textarea {
+    font-size: var(--normalFontSize);
+  }
+  .questions .secContainer .form .formContent input::-moz-placeholder, .questions .secContainer .form .formContent textarea::-moz-placeholder {
+    font-size: var(--normalFontSize);
+    color: var(--blackColor);
+  }
+  .questions .secContainer .form .formContent input::placeholder,
+  .questions .secContainer .form .formContent textarea::placeholder {
+    font-size: var(--normalFontSize);
+    color: var(--blackColor);
+  }
+  .questions .secContainer .form .formContent textarea {
+    height: 100px;
+    border-radius: 10px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .accordianContainer .title {
+    font-size: var(--h3FontSize);
+  }
+  .accordianContainer .title h3 .icon {
+    font-size: 1.5rem;
+  }
+  .accordianContainer .description {
+    font-size: var(--h3FontSize);
+  }
+  .accordianContainer .show {
+    height: 150px;
+  }
+  .questions .secHeading h3,
+  .questions .secHeading h4 {
+    font-size: 1.5rem;
+  }
+  .questions .secHeading p {
+    font-size: var(--h3FontSize);
+  }
+  .questions .secContainer {
+    gap: 3rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .accordianContainer .title {
+    font-size: 1.2rem;
+  }
 }/*# sourceMappingURL=Questions.css.map */
