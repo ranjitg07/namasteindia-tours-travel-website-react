@@ -43,4 +43,20 @@
 .middle .secContainer .grid span p {
   opacity: 0.8;
   max-width: 80px;
+}
+
+@media screen and (min-width: 480px) {
+  .middle .secContainer .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 640px) {
+  .middle .secContainer .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 800px) {
+  .middle .secContainer .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }/*# sourceMappingURL=Middle.css.map */
