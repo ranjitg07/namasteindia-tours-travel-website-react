@@ -126,6 +126,7 @@
     gap: 2rem;
   }
   .portfolio .secContainer .rightContent img {
-    margin-left: 10rem;
+    margin-left: 5rem;
+    width: 450px;
   }
 }/*# sourceMappingURL=Portfolio.css.map */

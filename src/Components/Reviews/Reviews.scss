@@ -66,7 +66,7 @@
     }
 
     .imgDiv {
-      height: 250px;
+      height: 300px;
       width: 100%;
       border-radius: 20px;
       overflow: hidden;
@@ -107,7 +107,7 @@
       }
 
       .imgDiv {
-        height: 250px;
+        height: 450px;
         width: 100%;
         img {
           height: 100%;
@@ -152,6 +152,12 @@
           }
         }
       }
+
+      .imgDiv{
+        // height: 350px;
+        height: 100%;
+        width: 300px;
+      }
     }
   }
 }
@@ -179,7 +185,10 @@
       }
 
       .imgDiv{
-        height: 350px;
+        // height: 350px;
+        height: 100%;
+        width: 380px;
+        margin-left: 8rem;
       }
     }
   }

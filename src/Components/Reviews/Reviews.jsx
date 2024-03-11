@@ -5,11 +5,11 @@ import "./Reviews.css";
 import { AiFillStar } from "react-icons/ai";
 
 //imported images
-import client1 from "../../assets/client1.jpg";
-import client2 from "../../assets/client2.jpg";
-import client3 from "../../assets/client3.jpg";
-import client4 from "../../assets/client4.jpg";
-import client5 from "../../assets/client5.jpg";
+import client1 from "../../assets/client1.webp";
+import client2 from "../../assets/client2.webp";
+import client3 from "../../assets/client3.webp";
+import client4 from "../../assets/client4.webp";
+import client5 from "../../assets/ladySticker.webp";
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'

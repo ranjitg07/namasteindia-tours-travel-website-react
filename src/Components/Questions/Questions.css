@@ -28,12 +28,15 @@
   justify-content: space-between;
   background: var(--primaryColorLight);
 }
-.accordianContainer .title span {
+.accordianContainer .title .headingIcon {
   cursor: pointer;
+  z-index: 100;
 }
-.accordianContainer .title span .icon {
+.accordianContainer .title .headingIcon .icon {
   font-size: 1.2rem;
+  cursor: pointer;
   color: var(--blackColor);
+  transition: all 0.5s ease;
 }
 .accordianContainer .description {
   font-size: var(--smallFontSize);

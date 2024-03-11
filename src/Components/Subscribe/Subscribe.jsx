@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import './Subscribe.css'
-import image from '../../assets/callUser1.png'
+import image from '../../assets/callUser1.webp'
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'

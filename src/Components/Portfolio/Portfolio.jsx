@@ -2,10 +2,10 @@ import React, {useEffect} from 'react'
 import './Portfolio.css'
 
 //Imported assets
-import icon1 from '../../assets/protection.png'
-import icon2 from '../../assets/destination.png'
-import icon3 from '../../assets/online-chat.png'
-import image from '../../assets/imageSticker.png'
+import icon1 from '../../assets/protection.webp'
+import icon2 from '../../assets/destination.webp'
+import icon3 from '../../assets/online-chat.webp'
+import image from '../../assets/imageSticker.webp'
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
