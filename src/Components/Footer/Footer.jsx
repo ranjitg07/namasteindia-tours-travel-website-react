@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./Footer.css";
-import footerLogo from "../../assets/tslogo.svg";
+import footerLogo from "../../assets/tsLogoOutline.svg";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 

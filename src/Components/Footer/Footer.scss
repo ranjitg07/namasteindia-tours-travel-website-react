@@ -43,6 +43,7 @@
 
         img {
           width: 130px;
+          margin-bottom: 0.5rem;
         }
       }
     }
@@ -172,6 +173,15 @@
     .secContainer {
       padding: 2rem 0;
       grid-template-columns: repeat(4, 1fr);
+
+      .logoDiv {
+        .footerLogo {
+          img {
+            width: 160px;
+            margin-bottom: 0.5rem;
+          }
+        }
+      }
     }
     .flex {
       justify-content: center;

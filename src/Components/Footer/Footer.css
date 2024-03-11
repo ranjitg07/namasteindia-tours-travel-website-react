@@ -40,6 +40,7 @@
 }
 .footer .secContainer .logoDiv .footerLogo img {
   width: 130px;
+  margin-bottom: 0.5rem;
 }
 .footer .secContainer .socials {
   gap: 0.5rem;
@@ -145,6 +146,10 @@
   .footer .secContainer {
     padding: 2rem 0;
     grid-template-columns: repeat(4, 1fr);
+  }
+  .footer .secContainer .logoDiv .footerLogo img {
+    width: 160px;
+    margin-bottom: 0.5rem;
   }
   .footer .flex {
     justify-content: center;
