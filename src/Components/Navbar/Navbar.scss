@@ -41,6 +41,14 @@
     align-items: center;
   }
 
+  ul{
+    a{
+      li{
+        color: var(--blackColor);
+      }
+    }
+  }
+
   // responsive navbar
   @media screen and (max-width: 767px) {
     .logoDiv {

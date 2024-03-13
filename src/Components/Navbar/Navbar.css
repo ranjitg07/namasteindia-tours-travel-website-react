@@ -38,6 +38,9 @@
   justify-content: center;
   align-items: center;
 }
+.navBar ul a li {
+  color: var(--blackColor);
+}
 @media screen and (max-width: 767px) {
   .navBar .logoDiv {
     width: 130px;

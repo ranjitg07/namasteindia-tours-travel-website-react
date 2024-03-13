@@ -21,7 +21,7 @@ const Reviews = () => {
   },[])
   
   return (
-    <div className="review section container">
+    <div className="review section container" id="testimonial">
       <div className="secContainer grid">
         <div className="textDiv">
           <span className="redText" data-aos='fade-up'>FROM OUR CLIENTS</span>

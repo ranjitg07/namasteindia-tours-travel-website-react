@@ -88,7 +88,7 @@ const Destinations = () => {
   },[])
 
   return (
-    <div className="destination section container">
+    <div className="destination section container" id="destination">
       <div className="secContainer">
         <div className="secTitle">
           <span className="redText" data-aos='fade-up'>EXPLORE NOW</span>

@@ -24,15 +24,15 @@ const Navbar = () => {
   return (
     <div className="navBar">
       <div className="logoDiv">
-        <img className="h-logo" src={logo} alt="TravelSphere Logo" />
+        <a href="#"><img className="h-logo" src={logo} alt="TravelSphere Logo" /></a>
       </div>
 
       <div className={navBar}>
         <ul>
-          <li className="navList">Destinations</li>
-          <li className="navList">About Us</li>
-          <li className="navList">Testimonial</li>
-          <li className="navList">Gallery</li>
+          <a href="#destination"><li className="navList">Destinations</li></a> 
+          <a href="#aboutUs"><li className="navList">About Us</li></a> 
+          <a href="#testimonial"><li className="navList">Testimonial</li></a> 
+          <a href="#faq"><li className="navList">FAQ</li></a> 
         </ul>
         {/* icon to remove navbar */}
         <AiFillCloseCircle className="icon closeIcon" onClick={removeNavBar} />

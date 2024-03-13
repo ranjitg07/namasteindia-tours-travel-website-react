@@ -15,7 +15,7 @@ const Questions = () => {
     "How do I choose the right travel destination for me?"
   );
   return (
-    <div className="questions section container">
+    <div className="questions section container" id="faq">
       <div className="secHeading grid">
         <div className="flex" data-aos='fade-up'>
           <h3>Frequently Asked Questions</h3>
