@@ -27,6 +27,7 @@
   border-radius: 10px;
   justify-content: space-between;
   background: var(--primaryColorLight);
+  cursor: pointer;
 }
 .accordianContainer .title .headingIcon {
   cursor: pointer;
