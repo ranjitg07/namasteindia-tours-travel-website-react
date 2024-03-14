@@ -20,6 +20,9 @@
   --borderRadius: 3rem;
 }
 
+.destination {
+  padding-top: 90px;
+}
 .destination .secContainer .redText {
   font-size: var(--smallFontSize);
   font-weight: 500;

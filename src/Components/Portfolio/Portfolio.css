@@ -20,6 +20,9 @@
   --borderRadius: 3rem;
 }
 
+.portfolio {
+  padding-top: 120px;
+}
 .portfolio .secContainer {
   gap: 2rem;
 }

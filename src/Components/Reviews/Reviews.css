@@ -20,6 +20,9 @@
   --borderRadius: 3rem;
 }
 
+.review {
+  padding-top: 120px;
+}
 .review .secContainer .textDiv .redText {
   font-size: var(--smallFontSize);
   display: block;
