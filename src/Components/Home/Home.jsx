@@ -33,11 +33,21 @@ const Home = () => {
       <div className="popularPlaces">
         <div className="content">
           <h3 data-aos='fade-up'>Popular Places</h3>
-          <div className="images flex" data-aos ='fade-up'>
-             <img src={image1} alt="PopularPlace1" />
-             <img src={image2} alt="PopularPlace2" />
-             <img src={image3} alt="PopularPlace3" />
-             <img src={image4} alt="PopularPlace4" />
+          <div className="slider">
+            <div className="images flex slide-track" data-aos ='fade-up'>
+              <div className="slide">
+                <img src={image1} alt="PopularPlace1" />
+              </div>
+              <div className="slide">
+                <img src={image2} alt="PopularPlace1" />
+              </div>
+              <div className="slide">
+                <img src={image3} alt="PopularPlace1" />
+              </div>
+              <div className="slide">
+                <img src={image4} alt="PopularPlace1" />
+              </div>
+            </div>
           </div>
         </div>
       </div>

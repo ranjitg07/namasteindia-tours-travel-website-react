@@ -148,6 +148,9 @@
     justify-content: center;
     gap: 2rem;
   }
+  .Home .popularPlaces .content .images .slide {
+    perspective: 100px;
+  }
   .Home .popularPlaces .content .images img {
     width: 210px;
     height: 100px;
@@ -155,5 +158,8 @@
        object-fit: cover;
     border-radius: 10px;
     transition: all 0.3s ease-in-out;
+  }
+  .Home .popularPlaces .content .images img:hover {
+    transform: translateZ(15px);
   }
 }/*# sourceMappingURL=Home.css.map */
