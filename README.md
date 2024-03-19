@@ -1,8 +1,13 @@
-# React + Vite
+# Live Link:
+<a href="https://travelsphere-react.vercel.app/" target="_blank">Try Now!</a>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Preview
 
-Currently, two official plugins are available:
+![TravelSphere](https://github.com/ranjitg07/travelsphere-tours-travel-website-react/assets/51162069/9f0b5721-02ad-44c7-8745-ab6cd040d3ed)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Mobile Preview
+
+![TravelSphere](https://github.com/ranjitg07/travelsphere-tours-travel-website-react/assets/51162069/3b26ac91-9775-4cf1-a1f1-561a6f07a7bc)
+
+
+
