@@ -2,7 +2,7 @@ import React, {useEffect} from 'react'
 import './Home.css'
 
 // Imported Assests
-import Video from '../../assets/bgVideo.mp4'
+import Video from '../../assets/mainBg.mp4'
 import image1 from "../../assets/image1.webp"
 import image2 from "../../assets/image2.webp"
 import image3 from "../../assets/image3.webp"
@@ -25,8 +25,8 @@ const Home = () => {
       </div>
 
       <div className="sectionText">
-        <h1 data-aos='fade-up'>Unlock Your Travel Dreams With Us!</h1>
-        <p data-aos='fade-up'>Discover the world's most adventurous nature, life is a short for a trip.</p>
+        <h1 data-aos='fade-up'>Incredible <span id='orange'>In</span><span id='blue'>d</span><span id='green'>ia</span>!</h1>
+        <p data-aos='fade-up'>Discover the India's most adventurous nature, life is short for a trip.</p>
         <a href="#destination"><button data-aos ='fade-up' className ='btn flex'>GET STARTED <AiOutlineSwapRight className='icon' /></button></a>
       </div>
 

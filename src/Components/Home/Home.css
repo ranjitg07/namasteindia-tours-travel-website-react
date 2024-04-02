@@ -44,10 +44,20 @@
   bottom: 50%;
   color: var(--whiteColor);
   padding: 0 1.3rem;
+  text-align: center;
 }
 .Home .sectionText h1 {
   font-size: var(--biggestFontSize);
   font-weight: 900;
+}
+.Home .sectionText h1 #orange {
+  color: #FF671F;
+}
+.Home .sectionText h1 #blue {
+  color: #FFFFFF;
+}
+.Home .sectionText h1 #green {
+  color: #046A38;
 }
 .Home .sectionText p {
   padding: 1rem 0;
@@ -59,6 +69,7 @@
   padding-left: 2rem;
   padding-right: 2rem;
   font-size: var(--h3FontSize);
+  margin: 0 auto;
 }
 .Home .popularPlaces {
   display: none;

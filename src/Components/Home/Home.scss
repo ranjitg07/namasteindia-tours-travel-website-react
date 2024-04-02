@@ -47,10 +47,21 @@
     bottom: 50%;
     color: var(--whiteColor);
     padding: 0 1.3rem;
+    text-align: center;
 
     h1 {
       font-size: var(--biggestFontSize);
       font-weight: 900;
+      
+      #orange{
+        color: #FF671F;
+      }
+      #blue{
+        color: #FFFFFF;
+      }
+      #green{
+        color: #046A38;
+      }
     }
 
     p {
@@ -64,6 +75,7 @@
       padding-left: 2rem;
       padding-right: 2rem;
       font-size: var(--h3FontSize);
+      margin: 0 auto;
     }
   }
 
