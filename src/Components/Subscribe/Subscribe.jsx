@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import './Subscribe.css'
-import image from '../../assets/callUser1.webp'
+import callUs from '../../assets/callUs.webp'
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -14,7 +14,7 @@ const Subscribe = () => {
   return (
     <div className='subscribe section container'>
       <div className="secContainer grid">
-        <img src={image} alt="Div Image"  data-aos="zoom-in-right"/>
+        <img src={callUs} alt="Div Image"  data-aos="zoom-in-right"/>
 
         <div className="textDiv">
           <h4 data-aos='fade-up'>Best Way To Start Your Journey!</h4>

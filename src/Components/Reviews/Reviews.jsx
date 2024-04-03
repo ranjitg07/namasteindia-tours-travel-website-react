@@ -9,7 +9,7 @@ import client1 from "../../assets/client1.webp";
 import client2 from "../../assets/client2.webp";
 import client3 from "../../assets/client3.webp";
 import client4 from "../../assets/client4.webp";
-import client5 from "../../assets/ladySticker.webp";
+import RMusic from "../../assets/rajasthanMusic.webp";
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -49,7 +49,7 @@ const Reviews = () => {
         </div>
 
         <div className="imgDiv">
-          <img src={client5} alt="Image" data-aos='zoom-in'/>
+          <img src={RMusic} alt="Image" data-aos='zoom-in'/>
         </div>
       </div>
     </div>

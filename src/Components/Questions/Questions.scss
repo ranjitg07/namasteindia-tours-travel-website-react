@@ -71,7 +71,7 @@
 }
 
 .questions {
-  padding-top: 130px;
+  padding-top: 100px;
   .secHeading {
     .flex {
       padding-top: 1rem;
@@ -195,6 +195,7 @@
     }
 
     .questions{
+      padding-top: 130px;
         .secHeading{
             h3,
             h4{
@@ -213,6 +214,9 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .questions {
+    // padding-top: 130px;
+  }
     .accordianContainer{
         .title{
             font-size: 1.2rem;

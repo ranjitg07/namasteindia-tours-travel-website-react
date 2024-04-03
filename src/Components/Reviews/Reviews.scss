@@ -67,9 +67,9 @@
     }
 
     .imgDiv {
-      height: 300px;
+      margin-top: 1rem;
+      height: 100%;
       width: 100%;
-      border-radius: 20px;
       overflow: hidden;
     }
   }
@@ -108,10 +108,10 @@
       }
 
       .imgDiv {
-        height: 450px;
+        height: 100%;
         width: 100%;
         img {
-          height: 100%;
+          height: 300px;
           width: 100%;
           object-fit: cover;
           object-position: top;
@@ -155,9 +155,12 @@
       }
 
       .imgDiv{
-        // height: 350px;
         height: 100%;
-        width: 300px;
+        width: 100%;
+        img {
+          height: 230px;
+          width: 100%;
+        }
       }
     }
   }
@@ -165,6 +168,7 @@
 
 @media screen and (min-width: 1240px){
   .review{
+    padding-top: 170px;
     .secContainer{
       gap: 3rem;
 
@@ -185,11 +189,15 @@
         }
       }
 
-      .imgDiv{
-        // height: 350px;
+      .imgDiv {
         height: 100%;
-        width: 380px;
-        margin-left: 8rem;
+        width: 100%;
+        img {
+          height: 380px;
+          width: 100%;
+          object-fit: cover;
+          object-position: top;
+        }
       }
     }
   }

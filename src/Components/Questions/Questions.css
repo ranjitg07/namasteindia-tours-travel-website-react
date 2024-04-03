@@ -63,7 +63,7 @@
 }
 
 .questions {
-  padding-top: 130px;
+  padding-top: 100px;
 }
 .questions .secHeading .flex {
   padding-top: 1rem;
@@ -158,6 +158,9 @@
   }
   .accordianContainer .show {
     height: 150px;
+  }
+  .questions {
+    padding-top: 130px;
   }
   .questions .secHeading h3,
   .questions .secHeading h4 {
