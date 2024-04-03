@@ -2,7 +2,7 @@ import React, {useEffect} from 'react'
 import './Home.css'
 
 // Imported Assests
-import Video from '../../assets/mainBg.mp4'
+import Video from '../../assets/mainBg.webm'
 import image1 from "../../assets/image1.webp"
 import image2 from "../../assets/image2.webp"
 import image3 from "../../assets/image3.webp"
