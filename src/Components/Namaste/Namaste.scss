@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --primaryColor: hsl(14, 90%, 53%);
+  --primaryColorLight: hsl(14, 96%, 91%);
+  --bgColor: hsl(0, 0%, 100%);
+  --formColor: hsl(20, 42%, 87%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --greyText: hsl(0, 0%, 51%);
+  --inputColor: hsl(330, 12%, 97%);
+  --cardColor: hsl(300, 3%, 94%);
+
+  /* Font and Typography */
+  --biggestFontSize: 2.5rem;
+  --h1FontSize: 2rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: 0.938rem;
+  --smallFontSize: 0.813rem;
+  --smallestFontSize: 0.75rem;
+  --borderRadius: 3rem;
+}
+
+.welcome{
+  .secContainer{
+    
+    .namasteDiv{
+        margin: 1rem auto;
+        padding: 2rem 0;
+        height: 100%;
+        width: 100%;
+        img{
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          object-position: top;
+
+        }
+      }
+    .textDiv{
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .welcome{
+    .secContainer{
+      .wheelLower, .wheelUpper{
+          margin: 0 auto;
+          max-width: 40%;
+          img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: top;
+          }
+      }
+      .namasteDiv{
+        max-width: 80%;
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: top;
+  
+          }
+        }
+
+      .textDiv{
+        text-align: center;
+      }
+    }
+  }
+}

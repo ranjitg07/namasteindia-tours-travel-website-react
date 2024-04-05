@@ -1,6 +1,7 @@
 import './App.css'
 import Navbar from './Components/Navbar/Navbar'
 import Home from './Components/Home/Home'
+import Namaste from './Components/Namaste/Namaste'
 import Middle from './Components/Middle/Middle'
 import Destinations from './Components/Destinations/Destinations'
 import Portfolio from './Components/Portfolio/Portfolio'
@@ -15,6 +16,7 @@ function App() {
     <div>
       <Navbar />
       <Home/>
+      <Namaste/>
       <Middle/>
       <Destinations/>
       <Portfolio/>

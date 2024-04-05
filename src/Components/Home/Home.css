@@ -47,7 +47,7 @@
   text-align: center;
 }
 .Home .sectionText h1 {
-  font-size: var(--biggestFontSize);
+  font-size: 3rem;
   font-weight: 900;
 }
 .Home .sectionText h1 #orange {
