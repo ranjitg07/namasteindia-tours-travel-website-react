@@ -15,7 +15,7 @@ const Welcome = () => {
 
   return (
     <div className='welcome section container'>
-      <div className="secContainer grid" data-aos="zoom-in">
+      <div className="secContainer grid">
         <div className="wheelLower">
           <img src={wheelLower} alt="wheel" />
         </div>
