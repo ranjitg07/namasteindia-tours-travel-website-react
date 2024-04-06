@@ -1,9 +1,7 @@
 # Live Link:
-<a href="https://travelsphere-react.vercel.app/" target="_blank">Try Now!</a>
+<a href="https://travelsphere-react.vercel.app/" target="_blank">Check It Out!</a>
 
 # Description
-
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 ## TravelSphere: A Responsive Tours & Travel Website (Frontend)
 **Fueling wanderlust and celebrating India:** TravelSphere is a fully responsive website built with React, HTML, and SCSS. It boasts a minimalistic user interface (UI) with smooth animations, making navigation a breeze.
@@ -25,12 +23,4 @@ This project is currently a functional frontend. Future development will focus o
 **Preview**
 
 ![TravelSphere](https://github.com/ranjitg07/travelsphere-tours-travel-website-react/assets/51162069/01bc9cef-51cf-43c2-9977-aa683e41f185)
-
-## Contributor
-
-[//]: contributor-faces
-
-<a href="https://github.com/ranjitg07"><img src="https://avatars.githubusercontent.com/u/51162069?s=400&u=ea4057beff8dcea9b83ab7be1479340f032e1539&v=4" title="Ranjit Gupta" width="80" height="80" border-radius= "5px"></a>
-
-[//]: contributor-faces
 
