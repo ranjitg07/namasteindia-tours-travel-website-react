@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import logo from "../../assets/tsLogoMain.svg";
+import logo from "../../assets/NamasteT1.svg";
 
 // Imported Icons
 import { AiFillCloseCircle } from "react-icons/ai";

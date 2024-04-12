@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_7" data-name="Layer 7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1290 320.27">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #00aeb2;
+      }
+
+      .cls-3 {
+        stroke-width: 7px;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-2, .cls-6 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3, .cls-7 {
+        fill: #ffc115;
+      }
+
+      .cls-3, .cls-2, .cls-6 {
+        stroke: #12162e;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+      }
+
+      .cls-4, .cls-8 {
+        fill: #13152f;
+      }
+
+      .cls-4, .cls-5 {
+        stroke-width: 10px;
+      }
+
+      .cls-9 {
+        letter-spacing: .01em;
+      }
+
+      .cls-10 {
+        font-family: RoboArriba, 'Robo Arriba';
+        font-size: 135.77px;
+        letter-spacing: .02em;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        fill: #c6c7e4;
+        stroke: #13152f;
+      }
+
+      .cls-2, .cls-6 {
+        stroke-width: 5px;
+      }
+
+      .cls-6, .cls-12 {
+        fill: #ea2644;
+      }
+
+      .cls-12 {
+        font-family: Posterama1913W01-UltraBlack, Posterama1913W01-UltraBlack;
+        font-size: 97.18px;
+        font-weight: 800;
+      }
+    </style>
+  </defs>
+  <rect class="cls-5" x="5" y="5" width="251.17" height="310.27" rx="68.43" ry="68.43"/>
+  <g>
+    <path class="cls-6" d="m136.94,32.12s-141.14,172.49-3.33,200.5c0,0,142.7-4.45,3.33-200.5Z"/>
+    <path class="cls-2" d="m146.46,184.07s-14.45,24.09-30.19-2.25c0,0-2.57-20.23,21.2-18.31,0,0,18.95.96,20.23,27.3,0,0-1.28,25.69-27.94,26.66,0,0-39.18,3.21-45.29-42.72,0,0-3.43-40.9,47.42-50.1,0,0,43.16-7.07,62.43,42.4,0,0,14.13,32.12-17.34,69.7,0,0-30.19,35.22-76.44,21.09,0,0-44.75-6.85-61.35-60.6,0,0-4.82-17.02-2.89-32.44,0,0-27.94,64.02,32.12,104.81,0,0,72.27,55.56,140.68-19.91,0,0,24.04-25.16,23.13-68.84,0,0,2.89-35.97-35.97-67.13,0,0-36.85-33.08-92.82-14.45,0,0-53,19.91-52.35,75.16,0,0-3.85,64.24,58.13,70.98,0,0,67.34,7.92,75.48-53.53,0,0,1.07-61.45-59.53-53.1,0,0-48.82,16.27-22.38,56.85,0,0,26.02,27.14,43.68-11.56Z"/>
+  </g>
+  <circle class="cls-3" cx="136.05" cy="178.6" r="23.34"/>
+  <rect class="cls-4" x="301.57" y="53.07" width="983.43" height="212.53" rx="61.24" ry="61.24"/>
+  <text class="cls-12" transform="translate(343.4 196.63)"><tspan x="0" y="0">NAMA</tspan><tspan class="cls-9" x="306.71" y="0">S</tspan><tspan class="cls-11" x="369.29" y="0">T</tspan><tspan x="431" y="0">E</tspan></text>
+  <text class="cls-10" transform="translate(849.61 203.29)"><tspan class="cls-7" x="0" y="0">!</tspan><tspan class="cls-1" x="49.12" y="0">NDIA</tspan></text>
+  <rect class="cls-8" x="261.73" y="150.51" width="46.58" height="17.65"/>
+</svg>

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./Footer.css";
-import footerLogo from "../../assets/tsLogoOutline.svg";
+import footerLogo from "../../assets/NamasteT1.svg";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 
@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="secContainer container grid">
         <div className="logoDiv">
           <div className="footerLogo" data-aos="fade-up">
-            <img src={footerLogo} alt="logo" className="" />
+            <a href="#"><img src={footerLogo} alt="logo" className="" /></a>
           </div>
           <div className="socials flex" data-aos="fade-up">
             <a href="https://www.linkedin.com/in/ranjitg07/" target="_blank">
@@ -38,7 +38,7 @@ const Footer = () => {
             <a href="#">Explore</a>
           </li>
           <li>
-            <a href="#">Travel</a>
+            <a href="#destination">Travel</a>
           </li>
           <li>
             <a href="#">Blog</a>
@@ -48,7 +48,7 @@ const Footer = () => {
         <div className="footerLinks" data-aos="fade-up">
           <span className="linkTitle">Helpful Links</span>
           <li>
-            <a href="#">Destinations</a>
+            <a href="#destination">Destinations</a>
           </li>
           <li>
             <a href="#">Support</a>
@@ -69,7 +69,7 @@ const Footer = () => {
       <div className="flex">
         <div className="copyright">
           <span>
-            Copyright &copy; 2024 TravelSphere - This Webpage is designed and
+            Copyright &copy; 2024 Namaste India - This Webpage is designed and
             developed by
             <a
               href="https://www.linkedin.com/in/ranjitg07/"
